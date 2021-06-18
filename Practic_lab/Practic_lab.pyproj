@@ -72,6 +72,7 @@
     <Content Include="views\index.tpl" />
     <Content Include="views\layout.tpl" />
     <Content Include="views\news.tpl" />
+    <Content Include="views\newsAdd.tpl" />
   </ItemGroup>
   <ItemGroup>
     <Interpreter Include="env\">

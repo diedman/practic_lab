@@ -1,15 +1,17 @@
 [
   {
-    "name": "New iPhone XR",
+    "title": "New iPhone XR",
     "date": "21.01.2021",
     "new_text": "Today new iPhone",
-    "author": "Dedman"
+    "author": "Dedman",
+    "email": "dima20067@yandex.ru"
   },
 
   {
-    "name": "New Apple Watch",
-    "date": "21.01.2021",
+    "title": "New Apple Watch",
+    "date": "22.01.2021",
     "new_text": "Today new apple watch series X",
-    "author": "RoflMan"
+    "author": "RoflMan",
+    "email": "rofl@gmail.com"
   }
 ]

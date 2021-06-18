@@ -10,3 +10,4 @@ def get_all_news(): # Функция для получения всех зака
         news = json.loads(file_content)
     return news
 
+

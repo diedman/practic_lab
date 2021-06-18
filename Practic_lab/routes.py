@@ -43,3 +43,13 @@ def about():
         message='All news.',
         year=datetime.now().year
     )
+
+@route('/newsAdd')
+@view('newsAdd')
+def about():
+    """Renders the news page."""
+    return dict(
+        title='Add news',
+        message='Fill all fields.',
+        year=datetime.now().year
+    )
