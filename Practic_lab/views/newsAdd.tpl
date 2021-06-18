@@ -3,22 +3,22 @@
 <h2>Create news.</h2>
 <h3>{{ message }}</h3>
 
-<form class="form" method="post">
+<form action="/newsAdd" method="post">
 	<label class="form__label">
-		Enter title:  <input class="form__input" type="text" name="TITLE"/>
+		Enter title:  <p><input class="form__input" type="text" name="TITLE"></p>
 	</label>
 	<br>
 	<label class="form__label">
-		Enter your email: <input class="form__input" type="email" name="EMAIL"/>
+		Enter your email: <p><input class="form__input" type="email" name="EMAIL"></p>
 	</label>
 	<br>
 	<label class="form__label">
-		Enter your Nick: <input class="form__input" type="tel" name="PHONE"/>
+		Enter your Nick: <p><input class="form__input" type="text" name="NICK"></p>
 	</label>
 	<br>
 	<label class="form__label">
-		Enter text for new: <textarea class="form__textarea" name="NEW_TEXT"></textarea>
+		Enter text for new: <p><textarea class="form__textarea" name="NEW_TEXT"></textarea></p>
 	</label>
 	<br>
-	<p><input type="submit" value="Create order"></p>
+	<p><input type="submit" value="Create new"></p>
 </form>

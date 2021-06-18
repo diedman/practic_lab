@@ -1,17 +1,1 @@
-[
-  {
-    "title": "New iPhone XR",
-    "date": "21.01.2021",
-    "new_text": "Today new iPhone",
-    "author": "Dedman",
-    "email": "dima20067@yandex.ru"
-  },
-
-  {
-    "title": "New Apple Watch",
-    "date": "22.01.2021",
-    "new_text": "Today new apple watch series X",
-    "author": "RoflMan",
-    "email": "rofl@gmail.com"
-  }
-]
+[{"title": "New iPhone XR", "date": "21.01.2021", "new_text": "Today new iPhone", "author": "Dedman", "email": "dima20067@yandex.ru"}, {"title": "New Apple Watch", "date": "22.01.2021", "new_text": "Today new apple watch series X", "author": "RoflMan", "email": "rofl@gmail.com"}, {"title": "fdsaf", "date": "18.06.2021", "new_text": "sadf", "author": "sadf", "email": "dfg@mail.ru"}]
