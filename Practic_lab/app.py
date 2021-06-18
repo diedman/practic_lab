@@ -2,6 +2,7 @@
 This script runs the application using a development server.
 """
 
+import unittest
 import bottle
 import os
 import sys

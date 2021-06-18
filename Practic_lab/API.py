@@ -1,5 +1,5 @@
 import json
-
+import check_mail
 from bottle import post, request
 from datetime import date
 
@@ -38,7 +38,7 @@ def prepare_new():
     # Проверка заполнености полей и mail стандарту
     if not title:
         return "Enter title"
-    if not email:
+    if not check_mail.mail_check(email):
         return "Enter correct email!"
     if not author:  
         return "Enter Nick"
